@@ -27,3 +27,4 @@ Route::group(['middleware' => 'auth'], function () {
 });
 
 Auth::routes();
+URL::forceScheme('https');
